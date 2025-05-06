@@ -98,3 +98,19 @@ The `debate_report.txt` file produced by the script contains the full transcript
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+## Citation
+If you use this framework or its methodology in your research or work, please cite it as follows:
+
+Zohny, H. (2025). *Automated Ethical Debate Framework*. [Software]. Retrieved from https://github.com/hazemzohny/AutomatedEthicalDebate
+
+**BibTeX:**
+```bibtex
+@software{Zohny_Automated_Ethical_Debate_2025,
+  author = {Zohny, Hazem},
+  title = {{Automated Ethical Debate Framework}},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{[https://github.com/hazemzohny/AutomatedEthicalDebate](https://github.com/hazemzohny/AutomatedEthicalDebate)}}
+}
