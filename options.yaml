@@ -1,0 +1,35 @@
+# CASE: Ventilator triage during COVID-19 surge – allocating scarce ICU capacity
+
+case: covid_ventilator_triage
+prompt: >
+  A regional health-care consortium is operating under “crisis standards of care” during a
+  severe COVID-19 wave.  Available intensive-care ventilators are projected to be outstripped
+  by need within 48 hours.  Hospitals have agreed in principle to a shared triage protocol,
+  but remain divided over the ethical framework.  Proposals range from strict utilitarian
+  maximisation of life-years saved, to egalitarian lottery systems, to adjustments that protect
+  persons with disabilities or from historically disadvantaged communities.  Families, front-
+  line clinicians, and disability-rights organisations are watching closely.  The debate
+  centres on: (i) what counts as a fair allocation principle under emergency scarcity,
+  (ii) how to operationalise any scoring algorithm across multiple hospitals, and (iii) how
+  transparent or insulated the triage team should be from bedside staff.
+
+options:
+  # Option 1: Maximise lives-saved through a clinical survivability score.
+  - Allocate ventilators to patients with the highest short-term survival probability,
+    using a SOFA-based scoring system that is recalculated every 24 hours; re-allocate
+    devices away from patients whose scores worsen below a preset threshold.
+
+  # Option 2: Protect equity via a weighted lottery.
+  - Apply a simple lottery among all ventilator candidates, but give extra chances (e.g.,
+    one additional “ticket”) to individuals from communities with historically poorer
+    health outcomes or to essential workers.
+
+  # Option 3: First-come, first-served with no re-allocation.
+  - Admit patients to ventilators strictly in the order in which they present and meet
+    minimal eligibility, and continue support unless they progress to brain death or
+    their authorised surrogate requests withdrawal.
+
+  # Option 4: Cross-hospital resource pooling and escalation review panel.
+  - Create a regional command centre that actively transfers patients and ventilators
+    among hospitals to equalise load; final triage decisions are made by a standing
+    multi-disciplinary panel that includes a disability advocate and ethicist.
