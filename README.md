@@ -102,7 +102,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Citation
 If you use this framework or its methodology in your research or work, please cite it as follows:
 
-Zohny, H. (2025). *ADEPT - AI Deliberative Ethics Protocol Toolkit*. [Software]. Retrieved from https://github.com/hazemzohny/AutomatedEthicalDebate
+Zohny, H. (2025). *ADEPT - AI Deliberative Ethics Protocol Toolkit*. [Software]. Retrieved from https://github.com/hazemzohny/ADEPT
 
 **BibTeX:**
 ```bibtex
