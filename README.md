@@ -1,4 +1,4 @@
-# Automated Ethical Debate Framework
+# AI Deliberative Ethics Protocol Toolkit (ADEPT)
 
 A Python-based framework for simulating nuanced ethical debates using Large Language Models (LLMs) and predefined, customizable ethical personas. This tool allows researchers and ethicists to explore how different ethical frameworks approach complex dilemmas.
 
