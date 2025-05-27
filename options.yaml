@@ -1,35 +1,26 @@
-# CASE: Ventilator triage during COVID-19 surge – allocating scarce ICU capacity
-
-case: covid_ventilator_triage
+case: covid_ventilator_triage_uk
 prompt: >
-  A regional health-care consortium is operating under “crisis standards of care” during a
-  severe COVID-19 wave.  Available intensive-care ventilators are projected to be outstripped
-  by need within 48 hours.  Hospitals have agreed in principle to a shared triage protocol,
-  but remain divided over the ethical framework.  Proposals range from strict utilitarian
-  maximisation of life-years saved, to egalitarian lottery systems, to adjustments that protect
-  persons with disabilities or from historically disadvantaged communities.  Families, front-
-  line clinicians, and disability-rights organisations are watching closely.  The debate
-  centres on: (i) what counts as a fair allocation principle under emergency scarcity,
-  (ii) how to operationalise any scoring algorithm across multiple hospitals, and (iii) how
-  transparent or insulated the triage team should be from bedside staff.
+  Within the next 72 hours, the Seven Rivers Integrated Care System (ICS) in England—
+  spanning three NHS Foundation Trusts and serving 1.4 million people—expects 58
+  ventilator-eligible adult patients but has only 32 mechanical ventilators available.
+  The ICS board, operating under NHS England crisis standards, must adopt a lawful and
+  ethically defensible triage protocol. A multidisciplinary debate panel is
+  asked to recommend an allocation rule. All options assume
+  that the independent ICS triage committee—not bedside clinicians—makes final
+  allocation and reassessment decisions, with full documentation and public reporting.
+
+  The proposed allocation rules for consideration are:
+
+  Option 1 - Dynamic Prognosis Model (withdrawal allowed): This option involves allocating ventilators to patients with the highest short-term survival probability, using the SOFA or 4C Deterioration score. Patients would be reassessed every 48 hours, and a ventilator could be withdrawn and re-allocated if a patient’s score worsens beyond a preset threshold.
+
+  Option 2 - Clinical + Equity Weighted Lottery (tie-break only): This option involves ranking all candidates by the same prognosis score. If two or more patients tie for the last available ventilator, a lottery would be run. This lottery would give one extra “ticket” to (i) individuals from the most deprived Index of Multiple Deprivation quintile or (ii) front-line NHS staff.
+
+  Option 3 - One-Shot Allocation (no withdrawal): This option involves allocating ventilators once, based on the initial prognosis score. Support would continue unless the patient dies or ongoing ventilation becomes clinically futile. No withdrawal for the purpose of re-allocation is permitted under this option.
+
+  Option 4 - Instrumental-Value Boost for Essential Workers: This option involves scoring patients by prognosis and then adding a +1 point adjustment for front-line NHS or critical national-infrastructure workers. Patients would be reassessed every 48 hours, and withdrawal and re-allocation would follow the same rules as Option 1.
 
 options:
-  # Option 1: Maximise lives-saved through a clinical survivability score.
-  - Allocate ventilators to patients with the highest short-term survival probability,
-    using a SOFA-based scoring system that is recalculated every 24 hours; re-allocate
-    devices away from patients whose scores worsen below a preset threshold.
-
-  # Option 2: Protect equity via a weighted lottery.
-  - Apply a simple lottery among all ventilator candidates, but give extra chances (e.g.,
-    one additional “ticket”) to individuals from communities with historically poorer
-    health outcomes or to essential workers.
-
-  # Option 3: First-come, first-served with no re-allocation.
-  - Admit patients to ventilators strictly in the order in which they present and meet
-    minimal eligibility, and continue support unless they progress to brain death or
-    their authorised surrogate requests withdrawal.
-
-  # Option 4: Cross-hospital resource pooling and escalation review panel.
-  - Create a regional command centre that actively transfers patients and ventilators
-    among hospitals to equalise load; final triage decisions are made by a standing
-    multi-disciplinary panel that includes a disability advocate and ethicist.
+  - "Option 1 - Dynamic Prognosis Model (withdrawal allowed)"
+  - "Option 2 - Clinical + Equity Weighted Lottery (tie-break only)"
+  - "Option 3 - One-Shot Allocation (no withdrawal)"
+  - "Option 4 - Instrumental-Value Boost for Essential Workers"
